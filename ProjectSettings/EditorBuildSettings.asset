@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Introstory.unity
+    path: Assets/Scenes/Intromeny.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Huvudscen.unity
+    guid: 0376c42ea237bfd4d9b92fcb4761adda
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: 8e897d16b76a86949b363c906c72f94e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: f5f5ef9766f53824ba0c2ff581f6985b, type: 3}
   m_UseUCBPForAssetBundles: 0
