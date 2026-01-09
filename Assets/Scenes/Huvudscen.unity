@@ -2795,6 +2795,37 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &217888961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217888962}
+  m_Layer: 0
+  m_Name: leftplanetpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &217888962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217888961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.02, y: 4.01, z: -0.0655387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &254708383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,6 +7373,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1144983049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9527304
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.30381703
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136317700554967560, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 35.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817954974244428041, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: m_Name
+      value: Planet
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181429505408771066, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: leftPoint
+      value: 
+      objectReference: {fileID: 217888962}
+    - target: {fileID: 8181429505408771066, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+      propertyPath: rightPoint
+      value: 
+      objectReference: {fileID: 1363137512}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54f9787f286163c42bada85f8c9babca, type: 3}
+--- !u!1 &1363137511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363137512}
+  m_Layer: 0
+  m_Name: rightplanetpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363137512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363137511}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.73, y: 3.43, z: -0.0655387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1945797347
 GameObject:
   m_ObjectHideFlags: 0
@@ -7859,3 +7986,6 @@ SceneRoots:
   - {fileID: 493650728}
   - {fileID: 2076813342}
   - {fileID: 1044822045}
+  - {fileID: 1144983049}
+  - {fileID: 217888962}
+  - {fileID: 1363137512}
